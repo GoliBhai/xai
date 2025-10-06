@@ -1,0 +1,23 @@
+{
+    "batch_size": 8,
+    "epochs": 35,
+    "eval_batchsize": 64,
+    "img_size": [
+        1,
+        512,
+        512
+    ],
+    "is_eval_only": false,
+    "is_metrics": false,
+    "latent_dim": 20,
+    "log_level": "INFO",
+    "loss": "VAE",
+    "lr": 0.0005,
+    "model_type": "Burgess",
+    "name": "dicef",
+    "no_cuda": false,
+    "no_test": false,
+    "rec_dist": "bernoulli",
+    "reg_anneal": 0.0,
+    "seed": 42
+}
